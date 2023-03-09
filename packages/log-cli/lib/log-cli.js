@@ -1,7 +1,8 @@
-'use strict';
+#!/usr/bin/env node
+const { program } = require('commander');
+const LogCore = require('log-core')
 
-module.exports = logCli;
+// action
+program.action((cmd) => LogCore())
 
-function logCli() {
-  return 'Hello from logCli';
-}
+program.parse(process.argv)

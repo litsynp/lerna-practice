@@ -1,7 +1,7 @@
-'use strict';
+const { red } = require('chalk');
 
-module.exports = logCore;
-
-function logCore() {
-  return 'Hello from logCore';
+function core() {
+  console.log(red('Running core'));
 }
+
+module.exports = core;
