@@ -1,0 +1,19 @@
+{
+  "name": "log-core",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "litsynp <nocte55is@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/log-core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/log-core.test.js"
+  }
+}
