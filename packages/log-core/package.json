@@ -15,5 +15,8 @@
   ],
   "scripts": {
     "test": "node ./__tests__/log-core.test.js"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0"
   }
 }
